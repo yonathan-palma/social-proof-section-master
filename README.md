@@ -25,7 +25,7 @@ Users should be able to:
 
   ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL:(https://yonathan-palma.github.io/social-proof-section-master/)
 
 
 ### Built with
@@ -39,4 +39,4 @@ Users should be able to:
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@yonathan-palma](https://www.frontendmentor.io/profile/yonathan-palma)
