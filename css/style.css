@@ -12,23 +12,14 @@
     --lattersize: 15px;
 }
 body{
+    background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
+    background-position: top 0 left 0, bottom 0 right 0;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: 425px;
     font-family: 'Spartan', sans-serif;
-    position: relative;
 }
-.bg-pattern-top, .bg-pattern-top-mobile {
-    position: absolute;
-    top: 0;
-    /* width: 80%; */
-}
-.bg-pattern-bottom, .bg-pattern-bottom-mobile{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    /* width: 80%; */
-}
-.bg-pattern-bottom-mobile, .bg-pattern-top-mobile{
-    display: none;
-}
+
 .container{
     width: 90%;
     max-width: 1140px;
@@ -119,9 +110,7 @@ body{
     width: 50px;
     
 }
-/* .card_header .user-name h3{
-    color: var(--White);
-} */
+
 .card_header .user-name p{
     color: var(--SoftPink);
 }
@@ -131,12 +120,8 @@ body{
 }
 
 @media (max-width:425px) {
-    .bg-pattern-bottom-mobile, .bg-pattern-top-mobile{
-        display: block;
-       
-    }
-    .bg-pattern-bottom, .bg-pattern-top{
-        display: none;
+    body{
+        background-image: url(../images/bg-pattern-top-mobile.svg), url(../images/bg-pattern-bottom-mobile.svg);
     }
     .container{
         height: auto;
@@ -171,3 +156,6 @@ body{
         justify-content: space-around;
     }
 }
+
+
+/* anotar grid gad, grid template con sapce grid-column */
